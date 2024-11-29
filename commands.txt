@@ -1,0 +1,10 @@
+## creare venv
+python -m venv mlflow_env
+
+## activate venv
+source mlflow_env/Scripts/activate
+
+## install mlflow
+pip install mlflow
+pip freeze > requirements.txt
+pip install -r requirements.txt
